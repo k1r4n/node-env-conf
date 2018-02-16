@@ -1,4 +1,4 @@
-# node-conf-env
+# node-env-conf
 A npm package to convert plain text env configuration to json object
 
 ### Prerequisites
