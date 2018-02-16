@@ -10,13 +10,13 @@ Node v9.2.1 and above
 How to install the product
 
 ```
-npm i @k1r4n/node-conf-env -S
+npm i @k1r4n/node-env-conf -S
 ```
 
 or
 
 ```
-npm install @k1r4n/node-conf-env --save
+npm install @k1r4n/node-env-conf --save
 ```
 
 ### Usage
@@ -37,13 +37,34 @@ console.log(conf);
 
 conf.env
 ```
-first   name=Lionel=Messi
+first   name=Lionel Messi
 Last Name=Messi
 PLAYING POSITION=Right Wing Forward
 PlAyInG cLuB=FC Barcelona
 
 number=10
 ```
+
+result
+```
+{ firstName: 'Lionel=Messi',
+  lastName: 'Messi',
+  playingPosition: 'Right Wing Forward',
+  playingClub: 'FC Barcelona',
+  number: '10' }
+```
+
+### Instructions
+
+Each line contains only one configuration.
+
+A configuration value and variable is seperated by '='.
+
+Configuration variable should only contain alphanumeric characters.
+
+White space at the start and end of the variable and values will be trimed.
+
+Configuration values will be strings.
 
 ### test
 
