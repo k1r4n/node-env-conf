@@ -47,7 +47,7 @@ number=10
 
 result
 ```
-{ firstName: 'Lionel=Messi',
+{ firstName: 'Lionel Messi',
   lastName: 'Messi',
   playingPosition: 'Right Wing Forward',
   playingClub: 'FC Barcelona',
