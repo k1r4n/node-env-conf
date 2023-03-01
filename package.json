@@ -26,6 +26,6 @@
   "homepage": "https://github.com/k1r4n/node-env-conf#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.0.1"
+    "mocha": "^10.2.0"
   }
 }
